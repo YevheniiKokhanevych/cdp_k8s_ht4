@@ -4,4 +4,4 @@ metadata:
   name: mysql-config
 data:
   my.conf: |-
-    {{ .Files.Get "my.conf" }}
+    {{ .Files.Get "my.conf" | indent 4 }}
