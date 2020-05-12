@@ -1,3 +1,4 @@
+# password for mysql
 {{- define "db-password-mysql" -}}
 {{- if .Values.dbPassword -}}
 {{- .Values.dbPassword -}}
