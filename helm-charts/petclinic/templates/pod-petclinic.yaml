@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: petclinic
+  labels:
+    app.kubernetes.io/name: petclinic
+    app.kubernetes.io/component: webapp
+    app.kubernetes.io/part-of: petclinic
+spec:
+  containers:
+    - name: server
+      image: mariolet/petclinic
+      ports:
+        - containerPort: 8080
+          protocol: TCP

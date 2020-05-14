@@ -1,7 +1,1 @@
-imageName: 'od-monitoring'
-appVersion: ''
-serviceAccountName: 'od-monitoring'
-notificationsSmtpHost: 'smtp.office365.com:587'
-notificationsSmtpFromAddrerss: 'Auto_EPM-INSR_Notifications@epam.com'
-# ENV_NAME is defined in pipeline; possible values are 'dev-test', 'test', 'nonp', 'prod'
-ENV_NAME: ''
+chartmuseumUrl: 'http://localhost:8080'

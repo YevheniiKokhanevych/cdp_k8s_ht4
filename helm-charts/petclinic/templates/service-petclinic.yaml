@@ -1,0 +1,16 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: petclinic
+  labels:
+    app.kubernetes.io/name: petclinic
+    app.kubernetes.io/component: webapp
+    app.kubernetes.io/part-of: petclinic
+spec:
+  ports:
+    - name: web
+      port: 8080
+      targetPort: 8080
+  selector:
+    app: petclinic
+    component: webapp

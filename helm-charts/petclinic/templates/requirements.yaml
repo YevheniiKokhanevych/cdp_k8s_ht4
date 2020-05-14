@@ -1,0 +1,5 @@
+dependencies:
+  - name: mysql
+    repository: {{.Values.chartmuseumUrl}}
+    version: 0.0.1
+    alias: mysql

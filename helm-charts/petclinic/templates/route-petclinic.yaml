@@ -1,0 +1,14 @@
+kind: Route
+apiVersion: v1
+metadata:
+  name: petclinic
+  labels:
+    app.kubernetes.io/name: petclinic
+    app.kubernetes.io/component: webapp
+    app.kubernetes.io/part-of: petclinic
+spec:
+  to:
+    kind: Service
+    name: petclinic
+  port:
+    targetPort: web
