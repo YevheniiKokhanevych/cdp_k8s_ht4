@@ -1,5 +1,5 @@
 dependencies:
   - name: mysql
-    repository: {{.Values.chartmuseumUrl}}
+    repository: http://10.233.4.227:8080
     version: 0.0.1
     alias: mysql
