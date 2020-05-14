@@ -3,6 +3,6 @@
 {{- if .Values.dbPassword -}}
 {{- .Values.dbPassword -}}
 {{- else -}}
-{{- randAlphaNum 10 | quote -}}
+{{- randAlphaNum 10 | b64enc | quote -}}
 {{- end -}}
 {{- end -}}
