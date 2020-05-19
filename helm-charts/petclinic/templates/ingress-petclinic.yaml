@@ -1,4 +1,4 @@
-kind: Route
+kind: Ingress
 apiVersion: v1
 metadata:
   name: petclinic
