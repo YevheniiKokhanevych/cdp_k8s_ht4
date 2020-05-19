@@ -1,5 +1,5 @@
 dependencies:
   - name: mysql
     repository: http://10.233.35.234:8080
-    version: 0.0.1
+    version: 0.0.2
     alias: mysql
