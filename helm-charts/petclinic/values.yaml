@@ -1,2 +1,2 @@
-# password for mysql
-dbPassword: 'customP@ssword'
+# secret name for mysql
+secretName: 'new-mysql-secret'
