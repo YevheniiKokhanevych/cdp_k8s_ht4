@@ -1,2 +1,3 @@
 # secret name for mysql
-secretName: 'new-mysql-secret'
+mysql:
+  secretName: 'new-mysql-secret'
