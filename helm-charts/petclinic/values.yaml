@@ -1,1 +1,2 @@
-chartmuseumUrl: 'http://localhost:8080'
+# password for mysql
+dbPassword: 'customP@ssword'
