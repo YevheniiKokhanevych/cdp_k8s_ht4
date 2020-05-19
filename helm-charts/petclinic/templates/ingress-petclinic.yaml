@@ -7,8 +7,6 @@ metadata:
     app.kubernetes.io/component: webapp
     app.kubernetes.io/part-of: petclinic
 spec:
-  to:
-    kind: Service
-    name: petclinic
-  port:
-    targetPort: web
+  backend:
+    serviceName: petclinic
+    servicePort: 8080
